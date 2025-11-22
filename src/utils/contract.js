@@ -1,4 +1,4 @@
-import { ethers } from "ethers";
+import { ethers } from "ethers/dist/ethers.esm.min.js";
 import abi from "./abi.json";
 import { NETWORK } from "./provider";
 
