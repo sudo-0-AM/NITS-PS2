@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-950 text-slate-50 antialiased;
+}
+
+/* Glassmorphism card */
+.glass-card {
+  @apply bg-white/10 border border-white/15 shadow-xl shadow-slate-900/40 backdrop-blur-xl rounded-2xl;
+}
+
+/* Gradient button */
+.gradient-btn {
+  @apply inline-flex items-center justify-center px-4 py-2 rounded-xl font-medium
+         bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500
+         text-white shadow-lg hover:opacity-90 active:scale-95 transition;
+}

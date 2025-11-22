@@ -1,0 +1,32 @@
+[
+  {
+    "inputs": [
+      { "internalType": "address", "name": "student", "type": "address" },
+      { "internalType": "string", "name": "ipfsHash", "type": "string" }
+    ],
+    "name": "issueCertificate",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      { "internalType": "address", "name": "student", "type": "address" }
+    ],
+    "name": "getCertificates",
+    "outputs": [
+      {
+        "components": [
+          { "internalType": "string", "name": "ipfsHash", "type": "string" },
+          { "internalType": "address", "name": "issuer", "type": "address" },
+          { "internalType": "uint256", "name": "issuedAt", "type": "uint256" }
+        ],
+        "internalType": "struct CertificateRegistry.Certificate[]",
+        "name": "",
+        "type": "tuple[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
