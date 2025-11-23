@@ -1,16 +1,57 @@
-# React + Vite
+# NITS-PS2: Problem Statement 2 (Frontend Application)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Overview
 
-Currently, two official plugins are available:
+This repository hosts the source code for the **NITS-PS2** web application. It is a modern, responsive, and fast single-page application built using React and Vite, styled with the utility-first framework, Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The problem is structured to provide a scalable and efficient development environment for tackling Project/Problem Statement 2.
 
-## React Compiler
+### ✨ Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+You can view the deployed version of the application here:
 
-## Expanding the ESLint configuration
+> [**nits-ps-2.vercel.app**](https://nits-ps-2.vercel.app)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+The following technologies and frameworks were used in the development of this project:
+
+| Category | Technology |
+| :--- | :--- |
+| **Frontend Framework** | [**React**](https://react.dev/) |
+| **Build Tool** | [**Vite**](https://vitejs.dev/) |
+| **Styling** | [**Tailwind CSS**](https://tailwindcss.com/) |
+| **Language** | JavaScript (ES6+), HTML, CSS |
+| **Linter** | [**ESLint**](https://eslint.org/) |
+
+---
+
+## ⚙️ Installation & Setup
+
+Follow these steps to get a copy of the project up and running on your local machine.
+
+### Prerequisites
+
+You need to have **Node.js** and **npm** (or yarn/pnpm) installed on your system.
+
+### 1. Clone the repository
+
+```bash
+git clone [https://github.com/sudo-0-AM/NITS-PS2.git](https://github.com/sudo-0-AM/NITS-PS2.git)
+cd NITS-PS2
+```
+
+### 2. Install Dependencies
+Use your preferred package manager to install the required dependencies:
+```bash
+# Using npm
+npm install
+
+# Using yarn
+yarn install
+
+# Using pnpm
+pnpm install
+```
